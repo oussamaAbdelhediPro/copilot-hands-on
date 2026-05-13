@@ -1,0 +1,20 @@
+{
+  "name": "tasks-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny in-memory tasks API used for the GitHub Copilot customization training.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.5.0"
+  }
+}
